@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterra</title>
+    <link rel="stylesheet" href="HomeStyle.css">
+    <link rel="icon" type="image/x-icon" href="/Images/logo.png">
+</head>
+<body>
+    <div class="nav-container">
+        <a href="Home.html" class="nav-link">
+            <div class="nav-item">
+                <h1>Home</h1>
+            </div>
+        </a>
+        <a href="About.html" class="nav-link">
+            <div class="nav-item">
+                <h1>About</h1>
+            </div>
+        </a>
+    </div>
+    <br>
+
+    <div class="carousel">
+        <img src="Images/recipe1.jpg" alt="recipe1" id="carouselImg">
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+        
+    </div>
+
+    <h1 style="margin-left: 40%; transform: translateX(-50%); margin-top: 130px; font-size: 50px;">Alterra Recipes:</h1>
+    <div class="container">
+        <div class="food-container HWS">
+            <a href="HWS.html">
+                <p style="font-size: 20px; text-align: center;">Honey Walnut Shrimp</p>
+                <img src="Images/recipe1.jpg" alt="Honey Walnut Shrimp" style="height: 220px; width: 220px; ">
+            </a>    
+        </div>
+        <div class="food-container RES">
+            <a href="RES.html">
+                <p style="font-size: 20px; text-align: center;">Rib-eye Steak</p>
+                <img src="Images/recipe2.jpg" alt="Rib-eye Steak" style="height: 220px; width: 220px;">
+            </a>
+        </div>
+        <div class="food-container OC">
+            <a href="OC.html">
+                <p style="font-size: 20px; text-align: center;">Orange Chicken</p>
+                <img src="Images/recipe3.jpg" alt="Orange Chicken" style="height: 220px; width: 220px;">
+            </a>
+        </div>
+        <div class="food-container FC">
+            <a href="FC.html">
+                <p style="font-size: 20px; text-align: center;">Fried Chicken</p>
+                <img src="Images/recipe4.jpg" alt="Fried Chicken" style="height: 220px; width: 220px;">
+            </a>
+        </div>
+        <div class="food-container R">
+            <a href="R.html">
+                <p style="font-size: 20px; text-align: center;">Risotto</p>
+                <img src="Images/recipe5.jpg" alt="Risotto" style="height: 220px; width: 220px;">
+            </a>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <footer class="footer">Have a Good Day</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
